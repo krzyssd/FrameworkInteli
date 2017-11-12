@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Test 2">
+<test name = "Smoke Testcases 2">
+    <parameter name ="UserId" value = "Parametr User ID przekazany z pliku Parameter.xml"/>
+    <parameter name ="UserName" value = "1abc"/>
+    <parameter name ="Userpassword" value = "2abc"/>
+    <classes>
+        <class name ="testngFiles.Anotation"/>
+
+    </classes>
+</test>
+</suite>
+
